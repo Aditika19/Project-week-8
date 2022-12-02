@@ -1,0 +1,229 @@
+.navbar{
+   
+    background-color: rgba(248, 240, 240, 0.89) !important;
+    color: rgba(248, 244, 244, 0.575);
+}
+
+
+.main{
+    height: 85vh; /*Viewport Height - It stretches automatically to the entire available height*/
+    /* background-image: url('../image/b8.jpg'); */
+    background-size: cover;
+    background-position: left;
+}
+
+.main1{
+    /* height: 100vh;  */
+    /* background-image: url('../image/ba11.jpg');
+    background-size: cover;
+    background-position: left; */
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+body{
+    /* padding: 5px; */
+    background-image: url(/image/b13.webp);
+    /* height: 1000px;  */
+    background-size: 130%;
+    /* background-position: 100% 100%; */
+
+}
+    
+
+
+
+
+.font{
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(250, 245, 245);
+    padding: 70px;
+
+}
+
+h4{
+    color: rgb(20, 20, 20);
+    text-align: center;
+    min-width: 285px;
+    padding: 20px;
+   
+}
+h1{
+    display: block;
+}
+/* Main Content */
+
+.mainContent{
+    
+}
+/* video */
+video#bgvideo {
+    position: fixed;
+    top: 100%;
+    left: 20%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(placeholder.jpg) no-repeat;
+    background-size: cover;
+    }
+
+
+
+
+
+
+
+
+
+.box{
+    background-color: #e8f0f457;
+    /* margin: 10px; */
+
+    min-height: 740px;
+    min-width: 278px;
+    box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.58);
+    /* -webkit-box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.58);
+    -moz-box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.58); */
+
+}
+
+p{
+    
+    font-size: large;
+
+    color: rgb(7, 7, 7);
+    text-align: center;
+    min-width: 85px;
+    padding: 20px;
+}
+
+/* contact us */
+
+.contact{
+    /* height: 100vh; Viewport Height - It stretches automatically to the entire available height */
+    /* background-image: url('../image/ba11.jpg');*/
+    background-size: cover;
+    background-position: left; 
+    /* height: 1000px; */
+    padding: 30px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.font1{
+
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(7, 7, 7);
+    padding: 40px;
+
+}
+h2{
+    font-style: normal;
+    font-size: medium;
+    padding: 40px;
+}
+
+.box1{
+    background-color:rgba(240, 248, 255, 0.699);
+    /* margin: 10px; */
+
+    min-height: 740px;
+    min-width: 278px;
+    box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.58);
+    /* -webkit-box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.58);
+    -moz-box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.58); */
+}
+.box2{
+    background-color: rgba(240, 248, 255, 0.932);
+    /* margin: 10px; */
+
+    min-height: 740px;
+    min-width: 278px;
+    box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.58);
+    /* -webkit-box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.58);
+    -moz-box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.58); */
+}
+.mb-3{
+    margin: 20px;
+    border: 1px solid  aliceblue ;
+    /* padding: 20px; */
+
+}
+
+/* footer */
+
+footer{
+    background-color: rgba(12, 12, 12, 0.199);
+    color: rgb(136, 133, 133);
+    min-height: 100px;
+    /* position: fixed;
+    left: 0;
+    right: 0; */
+}
+
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.smList{
+    list-style: none;
+}
+
+.smList li{
+    display: inline-block;
+}
+
+.smLogo{
+    height: 24px;
+}
+
+/* Media Queries */
+
+
+@media screen and (max-width:600px) {
+    .mainContent , .box , .box1 , .box2{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+       
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .mainContent{
+        margin: 25px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .mainContent{
+        margin: 50px;
+    }
+    
+}
